@@ -15,7 +15,7 @@
 | Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 | --- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
 |_Dnyandeo_|12pm-9pm|12pm-4pm|12pm-9pm|12pm-9pm|12am-4pm|-|after class|
-|_Elias_|00-00|00-00|00-00|00-00|00-00|00-00|after class|
+|_Elias_|10am-5pm|10am-5pm|10am-5pm|unavailable|10am-5pm|10am-5pm|after class|
 |_Carsiti_|00-00|00-00|00-00|00-00|00-00|00-00|00-00|
 
 ### How many hours everyone has per day
