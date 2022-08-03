@@ -1,27 +1,26 @@
 # Development Strategy
 
-A simple website for online shopping.Which are the user user will be able to
+A simple website for online shopping. Which are the user user will be able to
 choose items, add, and removed them to the shopping list.
 
 User Story
 As a user I want to see the Title of the website that indicates the shop, which
  should be very descriptive so that we know that we are on the legitimate website.
 
+ There is a prompt that lets you type a list: html/css
+
+ There are four icons that have different functions: html/css/js
+
+- Add to the list icon
+- Delete of the list icon
+- Edit your element icon
+- Refresh icon
+
 There is a prominent title of the website at the top
 Title: HTML
 
-Title of shopping website must have list and navigation bar.
-Title: CSS
-
-Style the list to the left side
-Style the navbar to the right side
-Navbar HTML
-
-Navbar with HTML
-Navbar CSS
-
 Positioned on the right top side of the site
-Styled with a color
+Styled with a color :css
 
 ## User 1
 
