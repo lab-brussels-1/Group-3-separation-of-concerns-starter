@@ -1,9 +1,11 @@
 # Development Strategy
 
-A simple website for online shopping.Which are the user user will be able to choose items, add, and removed them to the shopping list.
+A simple website for online shopping.Which are the user user will be able to
+choose items, add, and removed them to the shopping list.
 
 User Story
-As a user I want to see the Title of the website that indicates the shop, which should be very descriptive so that we know that we are on the legitimate website.
+As a user I want to see the Title of the website that indicates the shop, which
+ should be very descriptive so that we know that we are on the legitimate website.
 
 There is a prominent title of the website at the top
 Title: HTML
@@ -20,6 +22,7 @@ Navbar CSS
 
 Positioned on the right top side of the site
 Styled with a color
+
 ## User 1
 
 > A user I can add a new item to the list
@@ -43,7 +46,6 @@ Styled with a color
 > As a user I want to remove any item from the list
 
 - [ ] There is a trash bin button in a basket
-
 
 <!--
 
