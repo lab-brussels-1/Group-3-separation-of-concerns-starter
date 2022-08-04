@@ -2,12 +2,15 @@
 
 ## Must-Haves
 
-> these are necessary for basic usability
+User can see the main title
+A user can see all the items in their list
+A user can add a new item to their list
+A user can remove any item from their list
 
 ## Should-Haves
 
-> these will complete the user experience, but are not necessary
+A user can edit the description of each item in their list
 
 ## Could-Haves
 
-> would be really cool ... if there's time
+A user can mark an item as "done" or "not done"
