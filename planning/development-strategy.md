@@ -1,6 +1,6 @@
 # Development Strategy
 
-A simple website for online shopping. Which are the user user will be able to
+A simple website for online shopping. Which are the user  will be able to
 choose items, add, and removed them to the shopping list.
 
 User Story
@@ -24,19 +24,19 @@ Styled with a color :css
 
 ## User 1
 
-> A user I can add a new item to the list
+> As a user I can add a new item to the list
 
 - [ ] There is an add button for each item
 
 ## User 2
 
-> A user I can see all the items in the list
+> As a user I can see all the items in the list
 
 - [ ] There is a basket form displaying a list of items
 
 ## User 3
 
-> A user I can edit the description of each item in the list
+> As a user I can edit the description of each item in the list
 
 - [ ] There is buttons in a basket form
 
