@@ -2,9 +2,9 @@
 
 ## General info
 
-build a small project from scratch using the separation-of-concerns-starter. 
-A simple contact list website, in which the user will be able to add contact, remove contact 
-and edit contact from the list.
+build a small project from scratch using the separation-of-concerns-starter. A simple
+ contact list website, in which the user will be able to add contact, remove con
+ tact and edit contact from the list.
 
 ## Screenshots
 
@@ -34,7 +34,6 @@ and edit contact from the list.
 ## Status
 
 Project is: _in progress_
-
 
 ## Collaboration
 
