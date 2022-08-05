@@ -1,58 +1,60 @@
 # Development Strategy
 
-A simple website for online shopping. Which are the user  will be able to
-choose items, add, and removed them to the shopping list.
+    This is a simple contact list website. 
+    In which the user will be able to add contact, remove contact 
+    and edit contact from the list.
 
-User Story
-As a user I want to see the Title of the website that indicates the shop, which
- should be very descriptive so that we know that we are on the legitimate website.
+## User Story
 
- There is a prompt that lets you type a list: html/css
+As a user I want to see the Title of the website that indicates the contact list,
+which should be very descriptive so that we know that,
+we are on the legitimate website.
 
- There are four icons that have different functions: html/css/js
+- There is a prominent title of the website at the top
+    Title: Contact list
 
-- Add to the list icon
-- Delete of the list icon
-- Edit your element icon
-- Refresh icon
-
-There is a prominent title of the website at the top
-Title: HTML
-
-Positioned on the right top side of the site
+- Positioned on the right top side of the site
 Styled with a color :css
+- There is a input field that lets you type a list: html/css
+
+>There are four icons that have different functions: Using Html/Css/Javascript
+
+- Add contact to the list icon.
+- Delete contact of the list icon.
+- Edit contact of the list icon
+- Refresh the contact list
 
 ## User 1
 
-> As a user I can add a new item to the list
+> As a user I can add a new contact to the list.
 
-- [ ] There is an add button for each item
+- [ ] There is an input option for each item.
+- [ ] There is an add button icon for each item.
 
 ## User 2
 
-> As a user I can see all the items in the list
+> As a user I can see all the contact added in the list
 
-- [ ] There is a basket form displaying a list of items
+- [ ] There is a contact list for displaying a list of contacts.
 
 ## User 3
 
-> As a user I can edit the description of each item in the list
+> As a user I can edit the description of each contact in the list.
 
-- [ ] There is buttons in a basket form
+- [ ] There is edit button icon for edit contact list.
 
 ## User 4
 
-> As a user I want to remove any item from the list
+> As a user I want to remove/delete any contact from the list.
 
-- [ ] There is a trash bin button in a basket
+- [ ] There is a trash bin button icon for remove contact from the list.
 
-<!--
+## Implementation of website
 
-  There will be different types of tasks for each user story:
-    `type: components`
-    `type: css`
-    `type: logic`
-    `type: handlers`
-    ...
+As a user website should be responsive, user friendly and self explanatory
 
--->
+- [x] Html element
+- [x] Css properties
+- [x] JavaScript functions
+- With Separation of concern
+  
