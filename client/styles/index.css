@@ -105,38 +105,11 @@ button {
 	font-size: 18px;
 	text-transform: capitalize;
 	margin: 3px 15px;
-	background-color: #000000;
+	background-color: #000;
 	border-radius: 5px;
 	padding: 5px 10px;
 	flex-grow: 1;
 	color: white;
-}
-
-.list ul {
-	position: relative;
-	margin: auto;
-	width: fit-content;
-	padding: 5px;
-}
-
-.list ul li {
-	display: flex;
-	background-color: rgba(242, 241, 241, 0.1);
-	box-shadow: rgba(65, 65, 119, 0.25) 0px 50px 100px -20px,
-		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-		rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-	padding: 10px;
-	margin: 8px 0px;
-	font-size: 15px;
-	text-transform: capitalize;
-	justify-content: center;
-	color: rgb(102, 102, 102);
-}
-
-.list ul li:hover {
-	transform: scale(1.1);
-	transition: 0.2s;
-	background-color: #f8bdd0;
 }
 
 .footer {
