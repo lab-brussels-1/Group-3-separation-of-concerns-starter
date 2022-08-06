@@ -23,7 +23,7 @@ build a small project from scratch using the separation-of-concerns-starter. A s
 
 ## Code Examples
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
