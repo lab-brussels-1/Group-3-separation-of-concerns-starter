@@ -1,6 +1,18 @@
 # wireframe
 
-We have decided to create a simple design based in a online site of shopping. It
- will be simple because we will focused on JS.
+We have decided to create a simple design for a contact list. There is
 
-![wireframe](../images/LIST_EXERCISE.png)
+- A tittle,
+- A "type your name" box, a contact list that displays contact names with their
+corresponding intials.
+
+There are five bottons each with a different feature
+
+- Add contacts to the list
+- Delete contacts of the list
+- Edit names of the contacts
+- Refresh button
+- Sort button that lets you sort the contacts
+  from A-z
+
+![wireframe](../images/wireframe2.png)
