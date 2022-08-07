@@ -3,7 +3,9 @@ import { randomColor } from '../utils/add-contact.js';
 import { CONTACT_LIST } from '../../data/constants.js';
 
 export const addContact = (fullName) => {
-	if (fullName === '') alert('"Input is empty"');
+	if (fullName === '') {
+		alert('input is empty');
+	}
 	if (!fullName || !fullName.trim()) return;
 
 	// created ul element

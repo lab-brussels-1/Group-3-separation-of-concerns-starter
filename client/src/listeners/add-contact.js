@@ -7,7 +7,6 @@ export const listenersContact = () => {
 	document
 		.getElementById(ADD_CONTACT)
 		.addEventListener(MOUSE_EVENT, (event) => {
-			debugger;
 			event.preventDefault();
 			const nameInput = document.getElementById(NAME_INPUT);
 			addContact(nameInput.value);
