@@ -89,6 +89,7 @@
 		"no-invalid-this": 1,
 		"prefer-destructuring": 1,
 		"no-nested-ternary": 0,
+		"no-tab": "off",
 		"no-restricted-syntax": [
 			0,
 			{
