@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="./client/public/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>SOC Starter</title>
 
-		<link href="./client/styles/index.css" rel="stylesheet" />
-	</head>
-	<body>
-		<div id="root"></div>
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg+xml" href="./client/public/favicon.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>SOC Starter</title>
 
-		<script type="module" src="./client/src/init.js"></script>
-	</body>
+	<link href="./client/styles/index.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+	<section class="container">
+		<div class="title">
+			<h1>Contact list</h1>
+		</div>
+		<div class="list-item">
+			<form>
+				<button id="refresh" type="submit"><i class="fa-solid fa-address-book"></i>Refresh</button>
+				<input id="name-input" type="text" placeholder="Enter name">
+				<button id="add-contact" type="button"><i class="icon1 fa-solid fa-user-plus"></i>Add</button>
+				<button id="remove-contact" type="button"><i class="icon2 fa-solid fa-trash"></i>Remove</button>
+				<button id="edit-contact" type="button"><i class="icon3 fa-solid fa-pen-to-square"></i>Edit</button>
+			</form>
+		</div>
+	</section>
+	<section class="add-list" id="contact-list">
+	</section>
+	<footer class="footer">
+		<h2>Group-No-3 Hack Your Future</h2>
+	</footer>
+	<script type="module" src="./client/src/init.js"></script>
+</body>
+
 </html>
