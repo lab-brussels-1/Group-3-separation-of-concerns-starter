@@ -89,6 +89,9 @@
 		"no-invalid-this": 1,
 		"prefer-destructuring": 1,
 		"no-nested-ternary": 0,
+		"indent": [2, "tab"],
+        "no-tabs": 0,
+		"no-alert": "off",
 		"no-restricted-syntax": [
 			0,
 			{
