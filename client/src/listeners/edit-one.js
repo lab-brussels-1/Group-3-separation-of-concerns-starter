@@ -1,4 +1,4 @@
-import { state } from '../../data/state.js';
+import { state } from './../../data/state.js';
 import { saveNew } from '../handlers/edit-one.js';
 
 import {
@@ -16,7 +16,7 @@ export const editContact = () => {
 		const editBtn = document.getElementById(EDIT_CONTACT);
 		editBtn.style.backgroundColor = 'yellow';
 		editBtn.innerText = 'save';
-		const confirmEdit = confirm('"You want to edit this contact"');
+		const confirmEdit = window.confirm('"You want to edit this contact"');
 		if (confirmEdit === true) {
 			document.getElementById(NAME_INPUT).value = event.target.innerText;
 		}
