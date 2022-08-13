@@ -20,7 +20,7 @@
 .list-item {
 	width: fit-content;
 	display: flex;
-	margin-left: 28rem;
+	margin-left: 30rem;
 	background-color: rgb(249, 148, 148);
 }
 
@@ -30,7 +30,7 @@
 
 input {
 	padding: 7px;
-	width: 240px;
+	width: 200px;
 	max-width: 100%;
 }
 
@@ -86,7 +86,7 @@ button {
 	flex-direction: row;
 	width: fit-content;
 	padding: 6px;
-	margin-left: 23rem;
+	margin-left: 32.7rem;
 }
 
 .name-initial {
@@ -101,6 +101,10 @@ button {
 	opacity: 0.7;
 }
 
+.name-initial:active {
+	color: black;
+}
+
 .full-name {
 	font-size: 18px;
 	text-transform: capitalize;
@@ -110,6 +114,10 @@ button {
 	padding: 5px 10px;
 	flex-grow: 1;
 	color: white;
+}
+
+.full-name:active {
+	color: black;
 }
 
 .footer {
