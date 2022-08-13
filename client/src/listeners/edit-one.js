@@ -1,4 +1,4 @@
-import { state } from './../../data/state.js';
+import { state } from '../../data/state.js';
 import { saveNew } from '../handlers/edit-one.js';
 
 import {
