@@ -1,10 +1,5 @@
 import { addContact } from '../handlers/add-contact.js';
-import {
-	ADD_CONTACT,
-	MOUSE_EVENT,
-	NAME_INPUT,
-	SAVE_CONTACT,
-} from '../../data/constants.js';
+import { ADD_CONTACT, MOUSE_EVENT, NAME_INPUT } from '../../data/constants.js';
 
 export const listenersContact = () => {
 	document
