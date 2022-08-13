@@ -4,6 +4,9 @@ import { state } from '../../data/state.js';
 
 export const removeOne = () => {
 	const parentList = state.removeList;
+
+	// eslint-disable-next-line no-restricted-globals
+
 	const userConfirm = window.confirm('"Are you sure?"');
 	if (userConfirm === true) {
 		parentList.remove();
