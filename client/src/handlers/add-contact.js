@@ -28,4 +28,6 @@ export const addContact = (fullName) => {
 	document.getElementById(CONTACT_LIST).append(contactUl);
 
 	// store in inputs in the data file
+
+	state.contactUl.push(CONTACT_LIST);
 };

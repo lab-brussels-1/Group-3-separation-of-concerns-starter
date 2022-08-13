@@ -15,17 +15,13 @@ export const editContact = () => {
 		state.editList = event.target.parentNode;
 		const editBtn = document.getElementById(EDIT_CONTACT);
 		editBtn.style.backgroundColor = 'yellow';
-		newFunction();
-
+		editBtn.innerText = 'save';
+		const confirmEdit = confirm('"You want to edit this contact"');
+		if (confirmEdit === true) {
+			document.getElementById(NAME_INPUT).value = event.target.innerText;
+		}
 		document
 			.getElementById(SAVE_CONTACT)
 			.addEventListener(MOUSE_EVENT, saveNew);
-
-		function newFunction() {
-			const confirmEdit = confirm('"You want to edit this contact"');
-			if (confirmEdit === true) {
-				document.getElementById(NAME_INPUT).value = event.target.innerText;
-			}
-		}
 	});
 };

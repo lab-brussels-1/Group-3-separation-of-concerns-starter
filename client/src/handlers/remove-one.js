@@ -7,7 +7,5 @@ export const removeOne = () => {
 	const userConfirm = confirm('"Are you sure?"');
 	if (userConfirm === true) {
 		parentList.remove();
-	} else {
-		false;
 	}
 };
